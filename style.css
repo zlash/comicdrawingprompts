@@ -1,0 +1,61 @@
+body {
+    background-color: #333333
+}
+
+.niceFont {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#main {
+    font-size: 6vw;
+    text-align: center;
+    overflow: hidden;
+}
+
+#regen {
+    font-size: 6vw;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    color: #DDDDDD;
+}
+
+#regen:hover {
+    color: #AAAAFF;
+}
+
+.character {
+    animation-duration: 0.5s;
+    animation-name: slideleft;
+    color: #40FF5F;
+}
+
+.action {
+    animation-duration: 0.5s;
+    animation-name: slideright;
+    color: #FF1500;
+}
+
+
+@keyframes slideleft {
+    from {
+        margin-right: 100%;
+        width:300%;
+    }
+
+    to {
+        margin-right: 0%;
+    }
+}
+
+@keyframes slideright {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
