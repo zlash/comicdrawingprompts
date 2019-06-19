@@ -1,5 +1,6 @@
 body {
-    background-color: #333333
+    background-color: #333333;
+    overflow: hidden;
 }
 
 .niceFont {
@@ -17,11 +18,11 @@ body {
     user-select: none;
     cursor: pointer;
     text-align: center;
-    color: #DDDDDD;
+    transform: scale(0.8);
 }
 
 #regen:hover {
-    color: #AAAAFF;
+    transform: scale(1.0);
 }
 
 .character {
